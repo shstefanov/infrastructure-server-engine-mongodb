@@ -7,7 +7,7 @@ module.exports = function(cb){
     return "mongodb://"+cr+(conf.host||"localhost")+":"+(conf.port||"27017")+"/"+(conf.database||conf.db);
   };
 
-  var _            = require("../infrastructure/node_modules/underscore");
+  var _            = require("underscore");
   var env          = this;
   var config       = this.config;
 
